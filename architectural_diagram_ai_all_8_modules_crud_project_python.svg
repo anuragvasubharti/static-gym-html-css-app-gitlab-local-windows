@@ -1,0 +1,14 @@
+<svg width="1600" height="900" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="1580" height="880" fill="white" stroke="black" stroke-width="3" />
+  <text x="40" y="60" font-size="32">AI CRUD Project – 8 Module Architecture</text>
+  <text x="80" y="130" font-size="24">Machine Learning (Linear Regression, etc.)</text>
+  <text x="80" y="190" font-size="24">Deep Learning (CNN)</text>
+  <text x="80" y="250" font-size="24">NLP (BERT)</text>
+  <text x="80" y="310" font-size="24">GAN (Image Generation)</text>
+  <text x="80" y="370" font-size="24">Reinforcement Learning (Q-Learning)</text>
+  <text x="80" y="430" font-size="24">Computer Vision (YOLO)</text>
+  <text x="80" y="490" font-size="24">Multi-Modal (CLIP)</text>
+  <text x="80" y="550" font-size="24">Specialized (AlphaFold)</text>
+  <rect x="80" y="600" width="1440" height="80" fill="none" stroke="black" stroke-width="2" />
+  <text x="100" y="645" font-size="24">Data / Storage Layer (Databases, Files, Object Stores)</text>
+</svg>
