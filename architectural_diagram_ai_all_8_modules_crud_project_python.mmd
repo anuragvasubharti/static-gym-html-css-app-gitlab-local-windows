@@ -1,18 +1,18 @@
 
 flowchart TD
-    A[User API Request] --> B[Controller Layer]
+    A[Client / UI] --> B[API / Controller Layer]
     B --> C[Service Layer]
 
     C --> ML[Machine Learning Module]
     C --> DL[Deep Learning Module]
-    C --> NLP[NLP / BERT Module]
-    C --> GAN[Generative Adversarial Network]
-    C --> RL[Q-Learning Reinforcement Learning]
-    C --> CV[YOLO Computer Vision]
-    C --> MM[CLIP Multi-Modal]
-    C --> SP[AlphaFold Specialized AI]
+    C --> NLP[NLP (BERT) Module]
+    C --> GAN[GAN Generator Module]
+    C --> RL[Q-Learning RL Module]
+    C --> CV[YOLO Computer Vision Module]
+    C --> MM[CLIP Multi-Modal Module]
+    C --> SP[AlphaFold Specialized AI Module]
 
-    ML --> DB[(Database / Storage)]
+    ML --> DB[(Data / Storage Layer)]
     DL --> DB
     NLP --> DB
     GAN --> DB
@@ -21,4 +21,4 @@ flowchart TD
     MM --> DB
     SP --> DB
 
-    DB --> OUT[(Predictions / Results)]
+    DB --> OUT[(Predictions / Results / CRUD APIs)]
